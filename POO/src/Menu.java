@@ -8,7 +8,7 @@ public class Menu {
         do{
             System.out.println("-----------------------------------------------------");
             System.out.println("Escolha uma opcao:");
-            System.out.println("1-Cadastrar personagem\n2-Exibir personagens\n0-Sair\n");
+            System.out.println("1-Cadastrar personagem\n2-Exibir personagens\n3-Attack\n4-Aumentar Energia\n5-Ativar Habilidade \n0-Sair\n");
             System.out.println("-----------------------------------------------------");
             op = scanner.nextInt();
 
@@ -31,8 +31,6 @@ public class Menu {
                     personagem_temp.energy = temp_energy;
                     personagem_temp.superPower = temp_power;
                     personagem_temp.specialSkill = new SpecialSkill(name_skill, energy_cust, status_skill);
-
-
                     break;
                 case 2:
                     if (personagem_temp.name == null){
@@ -44,6 +42,26 @@ public class Menu {
 
                         break;
                     }
+                case 3:
+                    System.out.println("Digite o nome do ataque:");
+                    String attack = scanner.next() + scanner.nextLine();
+                    personagem_temp.attack(attack);
+                    break;
+                case 4:
+                    if(personagem_temp.name != null){
+                        System.out.println("Digite a quantidade de energia:");
+                        int energyplus = scanner.nextInt();
+                        personagem_temp.energyPlus(energyplus);
+                        System.out.println(personagem_temp.name + " tem um nivel agora de" + personagem_temp.energy);
+                        break;
+                    }else{
+                        System.out.println("Voce ainda nao cadastrou nenhum personagem!4");
+                        break;
+                    }
+                case 5:
+                    personagem_temp.startSkill();
+                    break;
+
                 case 0:
                     System.out.println("Voce descidiu sair do sistema!");
                     break;
