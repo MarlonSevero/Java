@@ -1,3 +1,5 @@
+package br.com.cryptocoin.fetcher;
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 

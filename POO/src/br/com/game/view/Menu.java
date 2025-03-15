@@ -1,3 +1,7 @@
+package br.com.game.view;
+
+import br.com.game.model.Personagem;
+import br.com.game.model.SpecialSkill;
 import java.util.Scanner;
 
 public class Menu {
@@ -27,18 +31,17 @@ public class Menu {
                     int energy_cust = scanner.nextInt();
                     System.out.println("Digite se a habilidade esta habilitada true/false:");
                     boolean status_skill = scanner.nextBoolean();
-                    personagem_temp.name = temp_name;
-                    personagem_temp.energy = temp_energy;
-                    personagem_temp.superPower = temp_power;
-                    personagem_temp.specialSkill = new SpecialSkill(name_skill, energy_cust, status_skill);
+                    personagem_temp.setName(temp_name).setEnergy(temp_energy).setSuperPower(temp_power);
+
+                    personagem_temp.setSpecialSkill(new SpecialSkill(name_skill, energy_cust, status_skill));
                     break;
                 case 2:
-                    if (personagem_temp.name == null){
+                    if (personagem_temp.getName() == null){
                         System.out.println("Voce ainda nao cadastrou ninguem");
                         break;
                     }else{
-                        System.out.println(personagem_temp.name + " tem o super poder de " + personagem_temp.superPower + " e energia de " + personagem_temp.energy + " ");
-                        System.out.println("Habilidade: " + personagem_temp.specialSkill.name_skill+ " com custo de energia de " + personagem_temp.specialSkill.energy_cust + " e a habilidade esta " + personagem_temp.specialSkill.status_skill);
+                        System.out.println(personagem_temp.getName() + " tem o super poder de " + personagem_temp.getSuperPower() + " e energia de " + personagem_temp.getEnergy() + " ");
+                        System.out.println("Habilidade: " + personagem_temp.getSpecialSkill().getName_skill()+ " com custo de energia de " + personagem_temp.getSpecialSkill().getEnergy_cust() + " e a habilidade esta " + personagem_temp.getSpecialSkill().getStatus_skill());
 
                         break;
                     }
@@ -48,11 +51,11 @@ public class Menu {
                     personagem_temp.attack(attack);
                     break;
                 case 4:
-                    if(personagem_temp.name != null){
+                    if(personagem_temp.getName() != null){
                         System.out.println("Digite a quantidade de energia:");
                         int energyplus = scanner.nextInt();
                         personagem_temp.energyPlus(energyplus);
-                        System.out.println(personagem_temp.name + " tem um nivel agora de" + personagem_temp.energy);
+                        System.out.println(personagem_temp.getName() + " tem um nivel agora de" + personagem_temp.getEnergy());
                         break;
                     }else{
                         System.out.println("Voce ainda nao cadastrou nenhum personagem!4");

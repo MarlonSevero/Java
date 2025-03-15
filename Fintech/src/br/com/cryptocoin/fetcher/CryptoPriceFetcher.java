@@ -1,4 +1,4 @@
-import netscape.javascript.JSObject;
+package br.com.cryptocoin.fetcher;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

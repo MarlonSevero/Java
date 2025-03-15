@@ -1,4 +1,7 @@
-import java.util.Scanner;
+package br.com.game.view;
+
+import br.com.game.model.Personagem;
+import br.com.game.model.SpecialSkill;
 
 public class Main {
     public static void main(String[] args) {
