@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45e8a288-c8b3-4086-8872-c7317d114198" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/model/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Fintech/src/br/com/cryptocoin/fetcher/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Fintech/src/br/com/cryptocoin/fetcher/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fintech/src/CryptoPriceFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fintech/src/br/com/cryptocoin/fetcher/CryptoPriceFetcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fintech/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fintech/src/br/com/cryptocoin/fetcher/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fintech/src/Register.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fintech/src/UserInfoRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fintech/src/br/com/cryptocoin/fetcher/UserInfoRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POO/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../POO/src/br/com/game/view/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POO/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../POO/src/br/com/game/view/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POO/src/Personagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../POO/src/br/com/game/model/Personagem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POO/src/SpecialSkill.java" beforeDir="false" afterPath="$PROJECT_DIR$/../POO/src/br/com/game/model/SpecialSkill.java" afterDir="false" />
-    </list>
+    <list default="true" id="45e8a288-c8b3-4086-8872-c7317d114198" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,5 +59,16 @@
       <updated>1742070762460</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

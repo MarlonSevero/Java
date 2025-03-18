@@ -12,7 +12,7 @@ public class CryptoPriceFetcher {
     public static double getCryptoPrice(String crypto, String coinConvert){
         try{
 
-            String urlString = API_URL + "?ids=" + crypto + "&vs_currencies=&vs_currencies=" + coinConvert; //Monta a url completa, exemplo https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd
+            String urlString = API_URL + "?ids=" + crypto + "&vs_currencies=" + coinConvert; //Monta a url completa, exemplo https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd
             URL url = new URL(urlString);
 
             HttpURLConnection connection = (HttpURLConnection) url.openConnection(); //Abre a conexao com a HTTP com a API
