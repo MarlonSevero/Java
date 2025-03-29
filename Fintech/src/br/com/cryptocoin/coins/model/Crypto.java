@@ -24,7 +24,7 @@ public class Crypto {
     }
 
     public String getDog() {
-        return "doge";
+        return "dog";
     }
 }
 
