@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="116be02c-b29e-41e9-a07d-1bf4305f3c58" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Colecoes/Colletions.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colecoes/src/br/com/colletions/ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colecoes/src/br/com/colletions/Examples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colecoes/src/br/com/colletions/Map_Apresentacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colecoes/src/br/com/colletions/Map_e_Hashmap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colecoes/src/br/com/colletions/Set_Apresentacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colecoes/src/br/com/colletions/Set_e_HashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colecoes/src/br/com/files/Attrs_Files.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colecoes/src/br/com/files/Copy_Files.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colecoes/src/br/com/files/Example_ReadWrite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colecoes/src/br/com/files/Exemplo_ManipulaArquivos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colecoes/src/br/com/files/List_Files.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colecoes/src/br/com/files/Read_Files.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colecoes/src/br/com/files/Remove_Files.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Colecoes/src/br/com/files/Write_Files.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/factory/FactoryConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="116be02c-b29e-41e9-a07d-1bf4305f3c58" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
