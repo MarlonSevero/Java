@@ -6,7 +6,7 @@ import org.fiap.com.model.Product;
 
 import java.sql.SQLException;
 
-public class SearchProductId {
+public class SearchProducts {
     public static void main(String[] args){
         try{
             ProductDao dao = new ProductDao();

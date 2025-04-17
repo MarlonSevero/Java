@@ -1,4 +1,4 @@
-package org.fiap.com.factory;
+package org.com.fiap.factory;
 
 import java.sql.DriverManager;
 import java.sql.SQLException;

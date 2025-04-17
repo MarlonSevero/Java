@@ -5,7 +5,7 @@ import org.fiap.com.model.Product;
 
 import java.util.List;
 
-public class ListItens {
+public class ReadProduct {
     public static void main(String[] args){
 
         try{
