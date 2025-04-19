@@ -25,6 +25,11 @@ public class Product {
 
     }
 
+    public Product(String name, LocalDate date) {
+        this.nome = name;
+        this.dt_nascimento = date;
+    }
+
     public int getId() {
         return id;
     }

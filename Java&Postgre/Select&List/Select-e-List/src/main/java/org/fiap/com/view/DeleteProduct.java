@@ -1,6 +1,6 @@
 package org.fiap.com.view;
 
-import org.fiap.com.dao.ProductDao;
+import org.fiap.com.dao.ProductDAO;
 import org.fiap.com.exception.EntityNotFound;
 
 import java.sql.SQLException;
@@ -8,8 +8,8 @@ import java.sql.SQLException;
 public class DeleteProduct {
     public static void main(String[] args){
         try{
-            ProductDao dao = new ProductDao();
-            dao.delete(2);
+            ProductDAO dao = new ProductDAO();
+            dao.delete(3);
             dao.fecharConexao();
             System.out.println("Produto Removido!");
         } catch (SQLException e) {

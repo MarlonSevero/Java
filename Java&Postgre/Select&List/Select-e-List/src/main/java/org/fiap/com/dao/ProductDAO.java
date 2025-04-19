@@ -9,11 +9,11 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ProductDao {
+public class ProductDAO {
 
     private Connection conexao;
 
-    public ProductDao() throws SQLException {
+    public ProductDAO() throws SQLException {
         conexao = ConnectionFactory.getConnection();
     }
 
