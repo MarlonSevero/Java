@@ -1,8 +1,4 @@
-package br.com.cryptocoin.fetcher;
-
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.util.concurrent.ConcurrentHashMap;
+package br.com.cryptocoin.factory;
 
 public class CacheCryptoPriceFetcher {
 //

@@ -1,12 +1,11 @@
-package br.com.cryptocoin;
+package br.com.cryptocoin.view;
 
-import br.com.cryptocoin.coins.coin.CoinBitcoin;
-import br.com.cryptocoin.coins.coin.CoinDog;
-import br.com.cryptocoin.coins.coin.CoinSolana;
-import br.com.cryptocoin.coins.coin.CoinUsdt;
-import br.com.cryptocoin.login.Login;
-import br.com.cryptocoin.register.Address;
-import br.com.cryptocoin.register.Register;
+import br.com.cryptocoin.model.coins.CoinBitcoin;
+import br.com.cryptocoin.model.coins.CoinDog;
+import br.com.cryptocoin.model.coins.CoinSolana;
+import br.com.cryptocoin.model.coins.CoinUsdt;
+import br.com.cryptocoin.model.user.Account;
+import br.com.cryptocoin.model.user.Address;
 
 import java.util.Scanner;
 import java.time.LocalDate;
@@ -23,8 +22,6 @@ public class Main {
         CoinSolana coinSolana = new CoinSolana();
         CoinUsdt coinUsdt = new CoinUsdt();
         CoinDog coinDog = new CoinDog();
-        Register new_user = new Register();
-        Login login = new Login();
 
         System.out.println("Bem-Vindo ao sistema My Digital Assents Home");
         System.out.println("Aqui voce tem tudo sobre o mundo CRYPTO na palma da sua mao!");
@@ -57,6 +54,8 @@ public class Main {
                                 scanner.nextLine(), scanner.nextLine(), scanner.next() + scanner.nextLine());
                         System.out.println("Informe seu CPF:");
                         String temp_cpf = scanner.nextLine();
+
+
                         new_user.setName(temp_name);
                         new_user.setDt_birth(dt_birth);
                         new_user.setRenda(temp_renda).setCpf(temp_cpf).setAddress(temp_address);

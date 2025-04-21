@@ -1,4 +1,4 @@
-package br.com.cryptocoin.fetcher;
+package br.com.cryptocoin.factory;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

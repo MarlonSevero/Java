@@ -20,7 +20,7 @@ public class ProductDAO {
     public void create(Product product) throws SQLException{
 
         PreparedStatement stm = conexao.prepareStatement(
-                "INSERT INTO produtos (nome, dt_nascimento) VALUES (?, ?);");
+                "INSERT INTO produtos (nome, dt_nascimento) VALUES (?, ?);");S
 
         stm.setString(1, product.getNome());
         stm.setDate(2, java.sql.Date.valueOf(product.getDt_nascimento()));
